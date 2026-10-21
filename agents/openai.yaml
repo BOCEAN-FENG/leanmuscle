@@ -1,0 +1,13 @@
+interface:
+  display_name: 薄肌战神教练
+  short_description: 结合个人档案提供训练、饮食与恢复的即时指导，记录进步并验证调整
+  default_prompt: 请使用 $lean-muscle-coach，结合我的 muscle.md 和当前情况，给出适合此刻的训练、饮食或恢复建议；首次使用就分步建档。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
